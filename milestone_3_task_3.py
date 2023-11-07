@@ -1,4 +1,4 @@
-      ## Good job so far!
+## Good job so far!
 # But your code probably doesn't look great.
 # It's hard to tell which lines do what.
 # Create 2 functions, check_guess and ask_for_input functions which contain the code for those two things.
@@ -14,22 +14,20 @@ def check_guess(guess):
     word_list = ['Apple', 'Banana', 'Orange', 'Mango', 'Pear']
     print(list(map(lambda x: x.lower(), word_list)))
     word = random.choice(word_list)
+    guessed_list = guess
+    print(word)
 ## Write the code for the following steps in the body of this function.
-
 # Step 2:
 # Convert the guess into lower case.
-   
-    list(map(lambda x: x.lower(), guess))
-
+    guess = guess.lower()
+    print(guess)
 # Step 3:
 # Move the code that you wrote to check if the guess is in the word into this function block.
 if guess in word:
-    
-   # Step a:
+      # Step a:
    # In the body of the if statement, print a message saying "Good guess! {guess} is in the word.". Obviously, format the string to show the actual guess instead of {guess}.
         print("Good guess!", guess , "is in the word.")
-        
-   # Step b:
+      # Step b:
    # Create an else block that prints a message saying "Sorry, {guess} is not in the word. Try again." This block of code will run if the guess is not in the word.
 else:
           print("Sorry!", {guess}, "is not in the word. Try again.")
@@ -45,13 +43,13 @@ def ask_for_input():
     # Step a:
 # Ask the user to guess a letter and assign this to a variable called guess.
         guess = input("Enter a Single Letter:")
-        guess = ask_for_input()
+        
     # Step b:
 # Check that the guess is a single alphabetical character. Hint: You can use Python's isalpha method to check if the guess is alphabetical.
         guess_length = len(guess)
         print(guess_length)
-        if guess in word and guess.isalpha():
-         if guess_length == 1 and guess.isalpha():
+        
+        if guess_length == 1 and guess.isalpha():
           # Step c:
 # If the guess passes the checks, break out of the loop.
              break
@@ -59,7 +57,6 @@ def ask_for_input():
     # Step d:
 # If the guess does not pass the checks, then print a message saying "Invalid letter. Please, enter a single alphabetical character." else:
          print("Invalid letter. Please, enter a single alphabetical character.",)
-     
 # Step 3:
 # Outside the while loop, but within this function, call the check_guess function to check if the guess is in the word. Don't forget to pass in the guess as an argument to the method.
 # Step 4:
