@@ -38,6 +38,15 @@ Hangman is a familiar word game in which one player guesses a word thought of by
 
 
 [HANGMAN](#HANGMAN) 
+
+
+
+
+
+
+
+
+
                                 
 
 
