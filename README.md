@@ -1,6 +1,8 @@
 Hangman is a familiar Python terminal word game in which one player guesses a word thought of by his contestant in guessing the letter in it within a fixed number of lives. This Project is an application of what we have learned so far using hangman game that involves two contestants: a user and the computer; where the computer randomly displays a word and the user attempts to guess it by choosing one of its letters. If the user runs out of lives without guessing the right word’s letter he lost.# Hangman
 Hangman is a familiar word game in which one player guesses a word thought of by his contestant in guessing the letter (s) in it within a fixed number of lives. This Project is an application of what we have learned so far using hangman game that involves two contestants: a user and the computer; where the computer randomly displays a word and the user attempts to guess it by choosing one of its letters. If the user runs out of lives without guessing the right letter of the word he lost.
-Table of Contents
+
+[Table of Contents](#)
+
 
 [Project Title: HANGMAN](#HANGMAN) 	
 
