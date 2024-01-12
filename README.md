@@ -126,6 +126,6 @@ Author: Jean Pierre Assiana
 
 [ACKNOWLEDGEMENT](#ACKNOWLEDGEMENT) 
 
-My gratitude to the AiCore engineers support team for their dedicated support and guidance. Thay continuously provided assistance and was always willing and passionate to help in any way they could all over the project.
+My gratitude to the AiCore engineers support team for their dedicated support and guidance. They continuously provided assistance and was always willing and passionate to help in any way as they could all over the project.
 
 
